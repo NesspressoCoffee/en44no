@@ -91,6 +91,29 @@ $(document).ready(function() {
             menuReservas = false;
         }
     });
+    var categoria = $("#slcCat").val();
+    console.info(categoria);
+
+    var nroHabitacion = $("#nroHabitacion").val();
+    console.info(nroHabitacion);
+
+    var piso = $("#piso").val();
+    console.info(piso);
+
+    var descripcion = $("#txtDescripcion").val();
+    console.info(descripcion);
+
+    var tamañoHabitacion = $("#tamañoHabitacion").val();
+    console.info(tamañoHabitacion);
+
+    var tamañoCama = $("#slcCama").val();
+    console.info(tamañoCama);
 
 
+
+
+
+    function nada() {
+
+    }
 });

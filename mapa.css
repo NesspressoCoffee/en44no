@@ -29,5 +29,72 @@
     width: 50%;
     height: 150px;
     margin-left: -50%;
-    margin-top: 350px;
+    margin-top: 20px;
+}
+
+.hab1 {
+    outline: solid 2px green;
+    width: 50%;
+    height: 330px;
+    margin-left: -50%;
+    margin-top: 0px;
+}
+
+.hab2 {
+    outline: solid 2px green;
+    width: 33.33%;
+    height: 250px;
+    margin-top: -750px;
+}
+
+.hab3 {
+    outline: solid 2px green;
+    width: 33.3%;
+    height: 250px;
+    margin-left: 33.33%;
+    margin-top: -250px;
+}
+
+.hab4 {
+    outline: solid 2px green;
+    width: 33.33%;
+    height: 250px;
+    margin-top: -250px;
+    margin-left: 66.66%;
+}
+
+.hab5 {
+    outline: solid 2px green;
+    height: 250px;
+    width: 50%;
+    margin-left: 100%;
+}
+
+.hab6 {
+    outline: solid 2px green;
+    height: 250px;
+    width: 50%;
+    margin-left: 100%;
+}
+
+.hab7 {
+    outline: solid 2px green;
+    width: 33.33%;
+    height: 250px;
+}
+
+.hab8 {
+    outline: solid 2px green;
+    width: 33.3%;
+    height: 250px;
+    margin-left: 33.33%;
+    margin-top: -250px;
+}
+
+.hab9 {
+    outline: solid 2px green;
+    width: 33.33%;
+    height: 250px;
+    margin-top: -250px;
+    margin-left: 66.66%;
 }

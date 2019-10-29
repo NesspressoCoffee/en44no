@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./formHabitaciones.css">
+    <script src="../libs/jquery-3.4.1.min.map"></script>
+    <script src="../libs/handlebars-v4.1.2.js"></script>
+    <script src="formHabitaciones.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <img src="../imgs/logonavbar.png" id="logoNav">
+    <div id="navBarCompleto">
+        <div id="navBar">
+        </div>
+        <div>
+            <a id="botonMenu" class="clientesNav option1 botonMenu">CLIENTES ▼</a>
+            <a id="botonMenu" class="clientesNav2 option1 botonMenu">HABITACIONES ▼</a>
+            <a id="botonMenu" class="clientesNav3 option1 botonMenu">RESERVAS ▼</a>
+
+            <p>
+                <a class="optionCliente">| Ingresar cliente</a>
+            </p>
+            <p>
+                <a class="optionCliente">| </a>
+            </p>
+
+            <p>
+                <a class="optionHab">| Ingresar habitacion</a>
+            </p>
+
+            <p>
+                <a class="optionRes">| Ingresar reserva</a>
+            </p>
+        </div>
+    </div>
+    <div class="form">
+        <form>
+            <label for="slcCat">Categorias: </label>
+            <p> <select id="slcCat" class="inputForm">
+                    <option>
+                        categorias
+                    </option>
+                </select>
+                <p>
+                    <label for="nroHabitacion">Nro. habitacion: </label>
+                    <p><input type="number" id="nroHabitacion" class="inputForm" value="3">
+                    </p>
+                    <p>
+                        <label for="piso">Piso: </label>
+                        <p></p> <input type="number" id="piso" class="inputForm">
+                    </p>
+                    <p>
+                        <label for="txtDescripcion">Descripcion: </label> </p>
+                    <textarea id="txtDescripcion"></textarea>
+                </p>
+            </p>
+            <p>
+                <label for="tamañoHabitacion">Tamaño en mts 2: </label>
+                <p></p> <input type="number" id="tamañoHabitacion" class="inputForm">
+            </p>
+            <p>
+                <label for="tamañoCama">Tamaño de cama: </label>
+                <p></p> <select class="inputForm" id="slcCama">
+                    <option>
+                        Twin
+                    </option>
+                    <option>
+                        Queen
+                    </option>
+                    <option>
+                        King
+                    </option>
+                </select>
+            </p>
+            <p>
+                <label>Comodidades:</label>
+                <p></p>
+                <label>Jacuzzi</label>
+                <input type="checkbox" </p>
+                <p>
+                    <input type="button" value="CONFIRMAR" class="botonForm" onclick="nada()">
+                </p>
+        </form>
+    </div>
+</body>
+
+</html>
