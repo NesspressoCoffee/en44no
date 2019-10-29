@@ -1,0 +1,9 @@
+Linkear habitaciones
+Sacarle el subrayado que aparece al linkear con un text decoration en a en css
+Redondear los inputs
+Agregar tildes
+Agregar categorías que lleva al formulario para poder hacerlo (falta crearlo)
+Agregar comodidades que lleva al formulario para poder hacerlo (falta crearlo)
+Cambiar fondo de las option del select por un color negro
+Creado formulario de categorías
+Creado formulario de comodidades
