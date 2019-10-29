@@ -3,10 +3,27 @@ var menuClientes = false;
 var menuHabitaciones = false;
 var menuReservas = false;
 
-$(document).ready(function() {
+$(document).ready(function () {
+    /* $(".botonMenu").on("click", function () {
+        if (menu === false && menuClientes === false && menuHabitaciones === false && menuReservas === false) {
+            $("#navBar").css("height", "220px");
+            $("#navBar").css("margin-top", "-300px");
+            $("#logo").css("margin-top", "290px");
+            $(".option1").css("margin-top", "-240px");
+
+            menu = true;
+        } else if (menu === true) {
+            $("#navBar").css("height", "110px");
+            $("#navBar").css("margin-top", "-200px");
+            $("#logo").css("margin-top", "200px");
+            $(".option1").css("margin-top", "-150px");
+
+            menu = false;
+        }
+    });*/
 
     //OPTION NAV CLIENTES
-    $(".clientesNav").on("click", function() {
+    $(".clientesNav").on("click", function () {
         if (menuClientes === false) {
 
             menuHabitaciones = false;
@@ -35,7 +52,7 @@ $(document).ready(function() {
     });
 
     //OPTION NAV HABITACIONES
-    $(".clientesNav2").on("click", function() {
+    $(".clientesNav2").on("click", function () {
         if (menuHabitaciones === false) {
 
             menuClientes = false;
@@ -64,7 +81,7 @@ $(document).ready(function() {
     });
 
     //OPTION NAV RESERVAS
-    $(".clientesNav3").on("click", function() {
+    $(".clientesNav3").on("click", function () {
         if (menuReservas === false) {
 
             menuClientes = false;
@@ -91,6 +108,4 @@ $(document).ready(function() {
             menuReservas = false;
         }
     });
-
-
 });

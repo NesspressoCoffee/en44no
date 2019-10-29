@@ -44,6 +44,7 @@ a {
     text-shadow: 2px 2px black;
     position: absolute;
     margin-top: -150px;
+    text-decoration: none;
 }
 
 a:hover {
